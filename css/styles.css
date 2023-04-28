@@ -749,3 +749,30 @@ button {
 .modal-close-btn:focus .modal-close-btn-icon {
   fill: var(--white-color);
 }
+
+/* ========== MODAL FORM ========== */
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-field {
+  margin-bottom: 8px;
+}
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--secondary-accent-background-color);
+  border-radius: 4px;
+  padding-left: 38px;
+}
+
+.modal-form-input-desc {
+  display: block;
+  font-size: 12px;
+  line-height: 1.16;
+  color: var(--light-slate-color);
+  margin-bottom: 8px;
+}
