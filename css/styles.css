@@ -868,7 +868,7 @@ button {
 
 .custom-checkbox:checked + .fake-checkbox::before {
   border: 1px solid rgba(46, 47, 66, 0.4);
-  background-image: url(../images/Property\ 1=click.svg);
+  background-image: url(../images/click.svg);
 }
 
 .custom-checkbox:not(:disabled):not(:checked) + .fake-checkbox:hover::before {
